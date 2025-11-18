@@ -1,0 +1,18 @@
+# Pasta para imagens da landing page
+
+## Estrutura sugerida:
+
+- `hero/` - Imagens para a seção hero
+- `portfolio/` - Imagens dos projetos do portfolio (6 projetos)
+- `logo/` - Logo do Ana Rovina Studio
+- `icons/` - Ícones customizados (se necessário)
+
+## Formatos recomendados:
+- PNG para logos e ícones com transparência
+- JPG para fotos e imagens grandes
+- SVG para ícones e elementos vetoriais
+- WebP para otimização (considere usar)
+
+## Otimização:
+- Mantenha imagens abaixo de 500KB quando possível
+- Use ferramentas como TinyPNG ou ImageOptim para comprimir
