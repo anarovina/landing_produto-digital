@@ -7,7 +7,7 @@
 const CONFIG = {
     API_KEY: 'AIzaSyCNvVjC97Ty97iTmJGfbLeixWaXtz8LkQM',
     EMAIL_RECIPIENT: 'contato@arovinastudio.com.br',
-    GOOGLE_SCRIPT_URL: '' // Cole aqui a URL do seu Google Apps Script
+    GOOGLE_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbyUGKOOYtXD8rc2ff4a03unU3jlFq1lVm4u4SfeL2n9DGnOB9fqRNKuUgHskNnbZuar/exec'
 };
 
 // === NAVIGATION SCROLL EFFECT === //
