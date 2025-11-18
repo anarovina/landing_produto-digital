@@ -219,7 +219,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../public/images/capa.png');
+    background-image: url('public/images/capa.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -539,7 +539,7 @@ section {
 }
 
 .produto-digital-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../public/images/foto2_ia.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('public/images/foto2_ia.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
