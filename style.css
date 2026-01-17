@@ -157,6 +157,16 @@ a {
     color: var(--color-primary);
 }
 
+.nav-link-brand {
+    font-weight: var(--font-weight-bold);
+    color: #db355d;
+}
+
+.nav-link-brand:hover {
+    color: #db355d;
+    opacity: 0.8;
+}
+
 .nav-link-cta {
     color: var(--color-primary);
     border: var(--border-width) solid var(--color-primary);
