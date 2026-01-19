@@ -357,10 +357,21 @@ a {
 }
 
 .btn-primary:hover {
-    background-color: transparent;
-    color: var(--color-primary);
+    background-color: #013a5c;
+    color: var(--color-white);
     border-color: var(--color-primary);
     transform: translateY(-2px);
+}
+
+/* Clique/ativo para botões primários: fundo branco e texto azul */
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:focus-visible {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    box-shadow: 0 6px 18px rgba(2,77,122,0.08);
+    transform: translateY(1px);
+    outline: none;
 }
 
 .btn-secondary {
