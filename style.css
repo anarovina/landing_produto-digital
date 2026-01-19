@@ -314,7 +314,7 @@ a {
 .hero-scroll-indicator span {
     font-size: 0.7rem;
     letter-spacing: 0.15em;
-    color: var(--color-gray-400);
+    color: var(--color-white);
 }
 
 .scroll-line {
@@ -1370,5 +1370,20 @@ section {
 
     .specialty-list li {
         padding: var(--spacing-sm) 0;
+    }
+}
+
+/* Ajustes para laptops (ex.: 14"), evita que o título fique colado ao cabeçalho */
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .hero {
+        padding-top: 180px;
+    }
+
+    .hero-title {
+        margin-top: 8px;
+    }
+
+    .hero-scroll-indicator span {
+        color: var(--color-white);
     }
 }
